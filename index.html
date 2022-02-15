@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script.js"></script>
+    <style>
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        pre {
+            background-color: #242424;
+            color: white;
+        }
+
+        button {
+            padding: 10px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <pre id="original"></pre>
+        <button onClick="cleanData()">Clean data</button>
+        <pre id="code"></pre>
+    </div>
+</body>
+</html>
